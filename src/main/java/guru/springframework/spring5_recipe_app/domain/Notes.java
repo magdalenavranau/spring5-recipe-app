@@ -22,11 +22,11 @@ public class Notes {
         this.id = id;
     }
 
-    public Recipe getReceipe() {
+    public Recipe getRecipe() {
         return recipe;
     }
 
-    public void setReceipe(Recipe recipe) {
+    public void setRecipe(Recipe recipe) {
         this.recipe = recipe;
     }
 
