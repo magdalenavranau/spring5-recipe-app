@@ -1,8 +1,10 @@
 package guru.springframework.spring5_recipe_app.domain;
 
 import jakarta.persistence.*;
+import lombok.EqualsAndHashCode;
 
 @Entity
+@EqualsAndHashCode(exclude = {"recipe"})
 public class Notes {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
