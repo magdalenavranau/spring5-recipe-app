@@ -8,8 +8,8 @@ import lombok.ToString;
 import java.math.BigDecimal;
 
 @Data
-@Entity
 @EqualsAndHashCode(exclude = {"recipe"})
+@Entity
 public class Ingredient {
 
     @Id
@@ -39,4 +39,5 @@ public class Ingredient {
         this.uom = uom;
         this.recipe = recipe;
     }
+
 }
